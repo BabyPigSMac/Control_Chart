@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="BabyPig"  content="Control Chart, Introduction">
+	<meta http-equiv="refresh" content="30">
+	<base href="https://google.com/" target="_blank">
+	<title>This Web Is DULL</title>
+</head>
+
+<body style="background-color: lightgoldenrodyellow;">
+	<!-- The Web Page is to introduce the Control Charting Schemes -->
+	<h1 style="background-color: indianred;text-align: center;">How to do the control charting?</h1>
+	<hr>
+
+
+	
+	<h2 style="text-align: center;">The univariate control chart</h2>
+	<a name="Univariate CC"></a>
+	<p style="font-family:arial;color:red;font-size:20px;">
+		<a href="https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/contchar.htm" style="text-decoration:none;">Univariate control chart</a> is the chart that monitors only one characteristic of a product. Bascially, all the charts are univariate intially. 
+	</p>
+	<p style="font-family:arial;color:red;font-size:20px;">
+		Some univariate charts are Shewhart X-bar chart, CUSUM chart, EWMA chart, GWMA chart, HWMA chart. 
+	</p>
+	<a href="#Multivariate CC">
+		Go check Multivariate Control Chart.
+	</a>
+	<hr>
+
+
+
+	<h2 style="text-align: center;">The multivariate control chart</h2>
+	<a name="Multivariate CC"></a>
+	<p>
+		The multivariate control chart monitors multiple characteriatics together. The scheme has been more complicated, but also more efficient, to some extent. 
+	</p>
+	<p>
+		Some multivariate charts are Hoteling's T2 chart, HEWMA chart, MHWMA chart. 
+	</p>
+	<a href="#Univariate CC">
+		Go check Univariate Control Chart. 
+	</a>
+	<hr>
+
+
+	<h2 style="text-align: center;">Others</h2>
+	<a name="Others"></a>
+	<p>
+		There are improvements based on control charting methods for specific situations. 
+	</p>
+	<h3 style="text-align: center;">Nonparamenter</h3>
+	<a name="Nonparamenter"></a>
+	<p>
+		Nonparamenter Method for control charts are based on tests such like sign test, Wilcoson tests. The idea is to take such test statistics as the input of some control chart, e.g. CUSUM, EWMA, HWMA. 
+	</p>
+
+	<h3 style="text-align: center;">VSI</h3>
+	<a name="VSI"></a>
+	<p>
+		The VSI(variable sampling interval) scheme is to take different sampling intervals when charting. This is for the in-situ monitoring of the charting. 
+	</p>
+
+	<h3 style="text-align: center;">VSS</h3>
+	<a name="VSS"></a>
+	<p>
+		The VSS(variable sampling size) scheme is to take different sample size for each subgroup, such that to save the computing resource for the control chart. 
+	</p>
+
+	<h3 style="text-align: center;">VSSI</h3>
+	<a name="VSSI"></a>
+	<p>
+		The VSSI(variable sampling and sample size) scheme. The scheme has two contents
+		<ul>
+			<li>VSI</li>
+			<li>VSS</li>
+		</ul>
+		For more details, see <a href="#VSI">VSI</a> and <a href="#VSS">VSS</a>. 
+	</p>
+	<hr>
+
+	<h2 style="text-align: center;">CoDa-MHWMA</h2>
+	<a name="CoDa-MHWMA"></a>
+	<p>
+		The CoDa-MHWMA control chart is the control chart that operates on the compositional data. For more details about the ARL performance, see <a href="CoDa-MHWMA-ME.html">Results</a>. 
+	</p>
+	<hr>
+
+
+
+
+	
+	<br/>
+	<img src="/images/logo.png" width="258" height="39" />
+	<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">版权 © BabyPig</div>
+</body>
+</html>
